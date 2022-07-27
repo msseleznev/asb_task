@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.scss';
 
-function App() {
+export const App = React.memo(() => {
   return (
     <div className="App">
-
+      <div />
     </div>
   );
-}
-
-export default App;
+});
