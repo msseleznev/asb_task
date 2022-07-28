@@ -1,0 +1,50 @@
+.tableBlock {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+
+
+
+    thead {
+      tr {
+        th {
+          color: #FFFFFF;
+          height: 54px;
+          background-color: #474955;
+          border: 1px solid #474955;
+          font-size: 14px;
+          font-style: normal;
+          line-height: 137.69%;
+          text-align: center;
+        }
+
+        .idColum {
+          width: 10%;
+        }
+
+        .headerColum {
+          width: 50%;
+        }
+
+        .descriptionColum {
+          width: 40%;
+
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 1px solid #E3E6EC;
+          padding: 10px;
+        }
+        .idRow {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
