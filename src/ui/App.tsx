@@ -23,7 +23,7 @@ export const App: React.FC = () => {
   useEffect(() => {
     dispatch(fetchUsers(currentPage));
     navigate(`/${currentPage}`);
-  }, [currentPage, dispatch, navigate]);
+  }, [dispatch]);
 
   const paginate = (pageNumber: number): void => {
     dispatch(setUsersPage({ currentPage: pageNumber }));
