@@ -4,12 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+.env
 
 # .idea
 .idea
-
-# .env
-.env
 
 # testing
 /coverage

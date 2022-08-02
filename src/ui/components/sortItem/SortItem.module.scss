@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+
+  .iconDown {
+    background-image: url(../../../../public/images/arrow.png);
+    height: 6px;
+    width: 12px;
+    margin-top: 2px;
+    margin-left: 15px;
+  }
+
+  .iconUp {
+    transform: rotate(180deg);
+  }
+
+}

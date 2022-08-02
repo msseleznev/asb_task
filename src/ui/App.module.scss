@@ -1,13 +1,9 @@
 
-.wrapper * {
-  /*border: rgba(0, 0, 0, 0.1) solid 1px;*/
-}
-
 .appBlock {
   max-width: 1232px;
   min-height: 820px;
   margin: 50px auto 20px;
-  box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+  box-shadow: 0 4px 27px rgba(230, 231, 234, 0.78);
 
   .content {
     display: flex;
@@ -27,14 +23,9 @@
 
     .table {
       height: 80%;
+      min-width: 668px;
     }
   }
 
 
 }
-
-
-//display: flex;
-//flex-direction: column;
-//justify-content: space-between;
-//flex-wrap: wrap;
