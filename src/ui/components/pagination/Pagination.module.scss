@@ -1,6 +1,7 @@
 .paginationBlock {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 20px;
 
   .buttonLink {
@@ -8,8 +9,12 @@
       border: none;
       background-color: transparent;
       font-size: 24px;
+      font-weight: 500;
       color: #474955;
       cursor: pointer;
+      @media screen and (max-width: 500px) {
+        font-size: 18px;
+      }
     }
   }
 
@@ -21,6 +26,10 @@
     cursor: pointer;
     text-decoration: none;
     padding: 5px;
+    @media screen and (max-width: 500px) {
+      font-size: 16px;
+    }
+
   }
 
   .item a.active {

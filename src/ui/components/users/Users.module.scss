@@ -1,11 +1,14 @@
 .tableBlock {
   min-height: 668px;
+  font-weight: 500;
+  font-size: 13px;
 
   table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     border: 0;
+
 
     thead {
       tr {
@@ -14,10 +17,7 @@
           height: 54px;
           background-color: #474955;
           border: 1px solid #474955;
-          font-size: 14px;
-          font-style: normal;
-          line-height: 137.69%;
-          text-align: center;
+
         }
 
         .idColum {
