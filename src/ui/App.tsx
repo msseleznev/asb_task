@@ -10,6 +10,8 @@ import { Pagination } from './components/pagination/Pagination';
 import { Search } from './components/search/Search';
 import { Users } from './components/users/Users';
 
+const START_PAGE = 1;
+
 export const App: React.FC = () => {
   const usersLimit = useAppSelector(state => state.users.usersLimit);
   const isLoading = useAppSelector(state => state.users.isLoading);
@@ -17,8 +19,8 @@ export const App: React.FC = () => {
   const navigate = useNavigate();
 
   const dispatch = useAppDispatch();
-  const PAGE = 1;
-  const [currentPage, setCurrentPage] = useState<number>(PAGE);
+
+  const [currentPage, setCurrentPage] = useState<number>(START_PAGE);
 
   useEffect(() => {
     dispatch(fetchUsers(currentPage));

@@ -12,7 +12,7 @@ export const User: React.FC<UserPropsType> = ({ isLoading }) => {
   const users = useAppSelector(state => state.users.usersPage);
 
   if (isLoading) {
-    return <h2>Loading...</h2>;
+    return <h2>Загрузка...</h2>;
   }
 
   return (
